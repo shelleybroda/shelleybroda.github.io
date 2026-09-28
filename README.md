@@ -2,12 +2,16 @@
 
 A personal portfolio presenting my Tulane education, legal experience, brand communication work, and campus leadership. Created with OpenAI Codex for my AI Tools website assignment.
 
+**Live site:** [shelleybroda.github.io](https://shelleybroda.github.io/)  
+**Repository:** [shelleybroda/shelleybroda.github.io](https://github.com/shelleybroda/shelleybroda.github.io)
+
 ## How the site works
 
 - `index.html` contains the portfolio’s content and meaningful HTML structure.
 - `resume.html` is the complete résumé, with a print-friendly layout. A visitor can use Print → Save as PDF.
 - `styles.css` controls colors, typography, spacing, and layouts for different screen sizes.
 - `.nojekyll` tells GitHub Pages to serve these static files directly.
+- `assets/shelley-broda.png` is my supplied portrait, preserved as provided.
 
 The site works without JavaScript, a build step, an account, or third-party font downloads. Navigation links jump to sections using their `id` attributes. Contact links use `mailto:` to open the visitor’s email application. The site itself does not send messages or collect form submissions.
 
