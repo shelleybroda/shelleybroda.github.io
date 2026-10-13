@@ -9,9 +9,10 @@ A personal portfolio presenting my Tulane education, legal experience, brand com
 
 - `index.html` contains the portfolio’s content and meaningful HTML structure.
 - `resume.html` is the complete résumé, with a print-friendly layout. A visitor can use Print → Save as PDF.
+- `lex-reflection.html` contains a real excerpt from my August 2025 Lex Fellowship reflection.
 - `styles.css` controls colors, typography, spacing, and layouts for different screen sizes.
 - `.nojekyll` tells GitHub Pages to serve these static files directly.
-- `assets/shelley-broda.png` is my supplied portrait, preserved as provided.
+- `assets/shelley-broda-480.webp` and `assets/shelley-broda-800.webp` are compressed versions of my supplied portrait after the requested watermark removal. `assets/shelley-broda.jpg` is the JPEG fallback.
 
 The site works without JavaScript, a build step, an account, or third-party font downloads. Navigation links jump to sections using their `id` attributes. Contact links use `mailto:` to open the visitor’s email application. The site itself does not send messages or collect form submissions.
 
@@ -29,7 +30,7 @@ For GitHub Pages, keep these files at the repository root. In **Settings → Pag
 
 ## Design and accessibility
 
-The design uses navy, blue, serif display type, and clear section divisions. The portfolio prioritizes selected experience; the résumé holds the complete history. Responsive CSS reorganizes columns for narrower screens. Semantic headings, a skip link, visible keyboard focus, and reduced-motion support help visitors navigate the content.
+The design uses navy, blue, serif display type, and clear section divisions. The portfolio prioritizes selected experience; the résumé holds the complete history. Responsive CSS reorganizes columns for narrower screens. Paragraphs and long lists use a 60ch reading measure; the résumé uses a narrower 72ch container. Body text deliberately uses the visitor’s system font, paired with Georgia headings, so there is no missing Inter dependency. Semantic headings, a skip link, visible keyboard focus, and reduced-motion support help visitors navigate the content.
 
 Content is grounded in my résumé rather than invented achievements or performance metrics. No testimonials or client endorsements are implied.
 

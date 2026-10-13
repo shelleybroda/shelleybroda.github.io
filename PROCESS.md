@@ -19,3 +19,15 @@
 ## Improving for the second round
 
 Keep the same repository and live address. Turn instructor and peer feedback into specific changes, save them with descriptive commit messages, and verify that each published change works on a phone. Record the feedback and resulting changes here after they actually occur.
+
+## October 13, 2026 — Readability, portrait, and work sample
+
+**Photo:** Used OpenAI’s built-in image editor to remove the photographer watermark from the supplied portrait, then created 480px and 800px WebP assets with a progressive JPEG fallback. The largest WebP is 44,220 bytes, about 96% smaller than the original 1,112,891-byte PNG. The page uses responsive image sources and explicit dimensions.
+
+**Reading comfort:** Limited paragraphs and long experience lists to 60ch and narrowed the résumé container to 72ch. Retained the desktop section layout and mobile stacking.
+
+**Fonts:** Replaced the unloaded Inter name with an intentional system font stack. Georgia remains the serif heading font. No external font requests are needed.
+
+**Actual work:** Added a selected-work section and a standalone writing-sample page using the firm-visit goals portion of the existing August 2025 “Lex reflection.” The source paragraphs are reproduced with only whitespace normalized, and headings expanded for navigation. This is labeled as a fellowship reflection, not presented as a procedural analysis or client deliverable. Only professional learning goals are published; the other reflection sections are excluded. No client names, case details, internal firm information, or private Drive links are included. The original Drive document and its sharing settings are unchanged.
+
+**Validation:** Checked the homepage at 1280, 390, and 320 pixels, the writing sample at desktop and 390 pixels, and the résumé at 320 pixels. No horizontal overflow was found. Confirmed the browser uses the system font and loads the compressed WebP portrait. Checked 29 local asset, page, and anchor references, one H1 per page, unique IDs, photo dimensions/alt text, and absence of private Drive links. The image exports contain no EXIF metadata.
